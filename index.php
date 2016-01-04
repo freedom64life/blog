@@ -20,6 +20,8 @@ define('APP_DEBUG',True);
 //默认模块
 define('DEFAULT_MODULE', 'Www');
 
+//老自动生产home，把他禁用
+define('MODULE_DENY_LIST',array('Home'));
 
 // 定义应用目录
 define('APP_PATH','./Application/');
