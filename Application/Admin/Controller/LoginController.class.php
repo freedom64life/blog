@@ -22,10 +22,14 @@ class LoginController extends Controller {
    	/**
    	 * 注册
    	 */
-    public function reg(){}
+    public function reg(){
+
+    }
     
     /**
      * 找回密码
      */
-    public function forgot_pwd(){}
+    public function forgot_pwd(){
+
+    }
 }

@@ -18,10 +18,10 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 define('APP_DEBUG',True);
 
 //默认模块
-define('DEFAULT_MODULE', 'Www');
+define('DEFAULT_MODULE', 'Home');
 
 //老自动生产home，把他禁用
-define('MODULE_DENY_LIST',array('Home'));
+//define('MODULE_DENY_LIST',array('Home'));
 
 // 定义应用目录
 define('APP_PATH','./Application/');
